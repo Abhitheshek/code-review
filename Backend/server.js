@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express();
 
 const corsOption = {
-    origin : "",
+    origin : "https://code-review-frontend-lilac.vercel.app",
     methods : "GET,POST,PUT,DELETE",
     allowedHeaders : "Content-Type,Authorization",
     credentials : true

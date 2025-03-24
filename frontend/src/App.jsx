@@ -24,7 +24,7 @@ const App = () => {
   async function reviewer(){
     setIsLoading(true) // Set loading to true
     try {
-      const response = await axios.post('http://localhost:5000/ai/code-review', { code })
+      const response = await axios.post('https://code-review-backend-gilt.vercel.app/ai/code-review', { code })
       console.log(response.data)
       setreview(response.data)
     } catch (error) {
