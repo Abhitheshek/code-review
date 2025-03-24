@@ -77,23 +77,32 @@ const LandingPage = () => {
         {/* Stats Section */}
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-400">500K+</div>
+            <div className="text-4xl font-bold text-blue-400">500+</div>
             <div className="text-gray-300 mt-2">Code Reviews</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-400">50+</div>
+            <div className="text-4xl font-bold text-blue-400">5+</div>
             <div className="text-gray-300 mt-2">Languages</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-400">10K+</div>
+            <div className="text-4xl font-bold text-blue-400">1+</div>
             <div className="text-gray-300 mt-2">Developers</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-400">99%</div>
+            <div className="text-4xl font-bold text-blue-400">95%</div>
             <div className="text-gray-300 mt-2">Satisfaction</div>
           </div>
         </div>
       </div>
+       {/* Footer Section */}
+       <footer className="bg-gray-800 py-6 mt-12">
+        <div className="container mx-auto px-6 text-center text-gray-400">
+          <p>&copy; 2025 CodeReviewer. All rights reserved.</p>
+          <div className="mt-4">
+            <p>Created and designed by ❤ <a href="https://www.instagram.com/quantumabhishek/">Abhishek</a> ❤</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

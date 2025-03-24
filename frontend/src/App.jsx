@@ -58,7 +58,7 @@ const App = () => {
         background: '#1e1e1e',
         color: '#fff',
         fontSize: 16,
-        minHeight: '100%',
+        height: '100%',
         width: '100%',
         overflow: 'auto',
         borderRadius: '8px',
@@ -67,7 +67,6 @@ const App = () => {
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
         position: 'relative',
         zIndex: 1,
-        
         
         
 
