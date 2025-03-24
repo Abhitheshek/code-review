@@ -81,8 +81,8 @@ const App = () => {
         {isLoading ? 'Loading...' : 'Review'} 
       </button>
     </div>
-    <div className='absolute top-1 left-1 z-10 p-2'>
-    <p className=' text-white opacity-10'>// past your code here</p>
+    <div className='absolute md:top-56 top-40 md:left-48 left-20 z-10 p-2'>
+    <p className=' text-white opacity-10 select-none'>// past your code here</p>
     </div>
   </div>
   <div className='right h-full bg-white rounded-lg p-4 overflow-auto'>
