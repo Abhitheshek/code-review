@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+pre {
+    margin: 0;
+    padding: 0;
+    background-color: #020202;  /* or any color you prefer */
+    border-radius: 8px;
+  }
+  
+  code {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  
+  .language-javascript {
+    margin: 0;
+    padding: 0;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  
