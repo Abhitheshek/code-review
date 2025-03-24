@@ -37,7 +37,7 @@ const App = () => {
   return (
     <>
      <div className='w-screen h-screen bg-gradient-to-br from-blue-600 to-gray-300 grid md:grid-cols-2 grid-cols-1 gap-4 p-4 m-0'>
-  <div className='left relative md:h-full h-[35vh] bg-gray-900 rounded-lg m-0 overflow-auto'>
+  <div className='left relative md:h-full h-[30vh] bg-gray-900 rounded-lg m-0 overflow-auto'>
     <div className='code h-full '>
     
       <Editor
@@ -85,7 +85,7 @@ const App = () => {
     <p className=' text-white opacity-10 select-none'>// past your code here</p>
     </div>
   </div>
-  <div className='right md:h-full h-[62vh] bg-white rounded-lg p-4 overflow-auto'>
+  <div className='right md:h-full h-[65vh] bg-white rounded-lg p-4 overflow-auto'>
     <Markdown rehypePlugins={[rehypeHighlight]}>
       {review}
     </Markdown>
